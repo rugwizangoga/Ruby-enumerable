@@ -12,8 +12,8 @@ class MyList
     @list = list
   end
 
-  def each(&block)
-    @list.each { |element| block.call(element) }
+  def each
+    @list.each { |element| yield element }
   end
 end
 
