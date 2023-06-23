@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Morse Code Decoder</b></h3>
+  <h3><b>Ruby Enumerable</b></h3>
 
 </div>
 
@@ -27,9 +27,9 @@
   - [📝 License ](#-license-)
 
 
-### 📖 Morse Code Decoder <a name="about-project"></a>
+### 📖 Ruby Enumerable <a name="about-project"></a>
 
-**Morse Code Decoder** is a straightforward Ruby program designed to streamline the task of deciphering <a href="https://en.wikipedia.org/wiki/Morse_code">Morse code</a> messages automatically.
+A straightforward software application was created with the intention of utilizing a module within a Ruby class. The module, called 'MyEnumerable,' incorporates a portion of the features found in <a href="https://ruby-doc.org/core-3.0.0/Enumerable.html">Ruby Enumerable</a>.
 
 ### 🛠️ Built With <a name="built-with"></a>
 
@@ -45,7 +45,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Decode a Morse code**
+- **any?, all?, filter enumerables**
 - **Set up Ruby linters**
 - **Add readme file**
 
@@ -68,21 +68,21 @@ In order to run this project you need:
 ### Setup
 
 Install Ruby
-Go to github and find the repository Morse-code-decoder
+Go to github and find the repository Ruby-enumerable
 
 
 Example commands:
 
 ```sh
   cd my-folder
-  git clone  https://github.com/rugwizangoga/Morse-code-Decoder.git
+  git clone  https://github.com/rugwizangoga/Ruby-enumerable.git
 ```
 -
 
 ### Usage
 
 To run the project, execute the queries in the files
-ruby morse_code_decoder.rb
+ruby my_list.rb
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -106,7 +106,7 @@ ruby morse_code_decoder.rb
 
 ### 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add UI to the project]**
+- [ ] **[Add more enumerables to enumerable file]=**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,7 +115,7 @@ ruby morse_code_decoder.rb
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/rugwizangoga/Morse-code-Decoder/issues).
+Feel free to check the [issues page](../../issues/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,4 +139,3 @@ I would like to thank Microverse for this project
 This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
