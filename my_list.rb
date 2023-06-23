@@ -6,7 +6,7 @@ class MyList
   end
 
   def each
-    @list.each { | element | yield (element) }
+    @list.each { | element | yield element }
   end
 end
 
@@ -21,4 +21,4 @@ puts(list.any? { |e| e == 2 }) # Output: true
 puts(list.any? { |e| e == 5 }) # Output: false
 
 # Test #filter
-puts(list.filter { |e| e.even? }) # Output: [2, 4]
+puts(list.filter(&:even?)) # Output: [2, 4]
